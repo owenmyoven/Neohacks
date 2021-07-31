@@ -1,5 +1,6 @@
 ### The person needs a starting point and a destination
 
+
 import pygame
 from pygame.locals import *
 from random import randint,uniform
@@ -15,14 +16,14 @@ clock = pygame.time.Clock()
 WHITE = (255,255,255)
 DARK_GRAY = (20,20,20)
 WIDTH, HEIGHT = 1920, 1080
-DISPLAY_SURF = pygame.display.set_mode((WIDTH,HEIGHT))
-DISPLAY_SURF.fill(WHITE)
-pygame.display.set_caption("Elevator")
 SPEED = 5
 BACKGROUND_COLOR = WHITE
 
-background = pygame.Surface((WIDTH,HEIGHT))
+DISPLAY_SURF = pygame.display.set_mode((WIDTH,HEIGHT))
+DISPLAY_SURF.fill(WHITE)
 
+pygame.display.set_caption("Elevator")
+background = pygame.Surface((WIDTH,HEIGHT))
 background.fill(BACKGROUND_COLOR)
 
 
